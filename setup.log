@@ -1,0 +1,18 @@
+npm init
+git init
+
+create .gitignore [node_modules, dist]
+
+npm install --save-dev babel-core babel-cli babel-preset-env babel-preset-react
+npm install --save-dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader
+
+npm install --save react react-dom
+npm install --save prop-types
+
+npm install --save-dev eslint
+./node_modules/.bin/eslint --init
+
+configure webpack.config.js
+
+npm install --save react
+npm install --save react-redux
